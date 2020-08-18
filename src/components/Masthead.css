@@ -1,0 +1,41 @@
+.masthead {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    place-items: center;
+    height: fit-content;
+    min-height: 80vh;
+}
+
+.masthead--container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16vh 0;
+    min-height: inherit;
+    height: 100%;
+    width: 50%;
+    
+}
+
+.masthead__title,
+.masthead__paragraph
+{
+    color: white;
+    
+}
+
+.masthead__title {
+    font-family: var(--font-opensans);
+    font-size: 3rem;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.masthead__paragraph {
+    margin-bottom: 100px;
+}

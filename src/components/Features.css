@@ -1,0 +1,31 @@
+.features {
+    height: fit-content;
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+.features--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.feature {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    flex-basis: calc(100%/3 - 25px);
+    flex-shrink: 0;
+    flex-grow: 1;
+    margin: 25px 12px;
+}
+
+.feature .title {
+    margin: 20px 0px
+}
+
+
+

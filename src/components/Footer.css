@@ -1,0 +1,36 @@
+.footer {
+    height: fit-content;
+}
+
+.footer__contact {
+    align-items: top;
+    background-color: var(--footer-color-1);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 30vh;
+    padding-bottom: 30px;
+}
+
+.footer__contact div {
+    margin-top: 70px;
+    width: 200px;
+    color: white;
+}
+
+.footer__contact div .title {
+    margin-bottom: 20px;
+}
+
+.footer__contact div .paragraph {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.footer__copy-rigth {
+    background-color: var(--footer-color-2);
+    color: white;
+    display: grid;
+    min-height: 10vh;
+    place-items: center;
+}

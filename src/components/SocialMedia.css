@@ -1,0 +1,39 @@
+.social-media {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+i.fab {
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 10px 15px;
+}
+
+
+i.grey {
+    border: 1px solid rgb(206, 206, 206);
+    color: rgb(206, 206, 206);
+}
+
+i.blue {
+    border: 2px solid white;
+    color: white;   
+}
+
+section.grey {
+    justify-content: flex-start;
+}
+
+section.blue {
+    justify-content: center;
+}
+
+i.grey:hover {
+    color: grey;
+}
+
+i.blue:hover {
+    background-color:var(--button-color);
+}
+
